@@ -1,0 +1,145 @@
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* GENERAL */
+
+#wrapper{
+    max-width:30%;
+    height:90%;
+    margin:auto;
+    background-color:white ;
+    padding:25px;
+    margin-top:10%;
+    margin-bottom:10%;
+    border-radius: 10px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#fff3e6 ;
+}
+
+/* HEADER */
+
+#pink_container{
+    background-color:#ffebf6 ;
+    padding-left: 15px;
+    padding-top:5px;
+    padding-bottom: 5px;;
+}
+
+img{
+    max-width:100%;
+}
+
+h3{
+    font-family: "Outfit", sans-serif;
+    font-size:12px;
+    font-weight:600;
+    color:purple;
+}
+
+img,#pink_container,#summary{
+    border-radius: 10px;
+}
+
+/* TITLES */
+
+h1,h2{
+    font-family:"Young Serif", serif ;
+    font-weight:100;
+}
+
+h1{
+    font-size:20px;
+}
+
+h2{
+    color:#802000;
+    font-size:15px ;
+}
+
+/* SECTION : INSTRUCTIONS */
+
+#instructions{
+    border-bottom: #cccccc 1px solid;
+    border-top:#cccccc 1px solid;
+}
+
+/* TABLES AND LISTS - ALL SECTIONS */
+
+p,ul,ol,table{
+    font-family: "Outfit", sans-serif;
+    font-size:16px;
+    font-weight:300;
+    line-height:150%;
+    color:#4d4d4d;
+}
+
+span{
+    font-weight: bold;
+}
+
+
+table{
+    width:100%;
+    text-align:left;
+    padding-left:15px;
+    border-collapse:collapse;
+}
+
+th{
+    font-weight:200;
+    border-bottom:1px #cccccc solid;
+}
+
+td{
+    font-weight: bold;
+    color:#802000;
+    padding:5px;
+    border-bottom:1px #cccccc solid;
+}
+
+ul,ol{
+    display:grid;
+    grid-gap:5px;
+    padding-left:5%;
+}
+
+/* MEDIA - MOBILE DEVICES */
+
+@media only screen and (max-width: 600px){
+    body{
+        background-color: white;
+    }
+    
+    #wrapper{
+        max-width:100%;
+    }
+
+    p,ul,ol,table,h3{
+        font-size:16px;
+    }
+}
+
+/* MEDIA - TABLETS */
+@media only screen and (min-width: 700px) and (max-width: 1024px){
+    #wrapper{
+        max-width:fit-content;
+    }
+
+    p,ul,ol,table,h3{
+        font-size:20px;
+    }
+
+    #pink_container{
+        max-width:60%;
+        margin: auto;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+}
